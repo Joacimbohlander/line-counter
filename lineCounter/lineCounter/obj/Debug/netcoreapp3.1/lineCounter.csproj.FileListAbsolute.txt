@@ -1,0 +1,14 @@
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\bin\Debug\netcoreapp3.1\lineCounter.exe
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\bin\Debug\netcoreapp3.1\lineCounter.deps.json
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\bin\Debug\netcoreapp3.1\lineCounter.runtimeconfig.json
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\bin\Debug\netcoreapp3.1\lineCounter.runtimeconfig.dev.json
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\bin\Debug\netcoreapp3.1\lineCounter.dll
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\bin\Debug\netcoreapp3.1\lineCounter.pdb
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.csproj.AssemblyReference.cache
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.AssemblyInfoInputs.cache
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.AssemblyInfo.cs
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.csproj.CoreCompileInputs.cache
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.dll
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.pdb
+C:\Users\Jocke\Desktop\line-counter\lineCounter\lineCounter\obj\Debug\netcoreapp3.1\lineCounter.genruntimeconfig.cache
