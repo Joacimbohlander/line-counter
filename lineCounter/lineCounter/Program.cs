@@ -6,29 +6,23 @@ namespace lineCounter
 {
     class Program
     {
-        List<int> ints;
         static void Main(string[] args)
         {
-            List<int> linesArr = new List<int>();
+            using var reader = new StreamReader("");
+            double total = 0;
+            int count = 0;
 
-            // This opens the file at path and counts the line
-            var lineCount = 0;
-            string line;
-            path = @"";
-            using StreamReader sr = new StreamReader(path);
-
-            while  (sr.ReadLine() != null) 
+            while (!reader.EndOfStream)
             {
-                for (int i = 0; i < linesArr.Count; i++)
-                {
-                    int line = linesArr[i];
-                }
+                var line = reader.ReadLine();
 
+                total += double.Parse(line);
 
-                lineCount++;
+                count++;
             }
-            // sum = lineCount(lineCount+1)/2
+            double average = total / count;
 
+            Console.WriteLine("The average of all the numbers in this file is :" + average);
         }
     }
 }
