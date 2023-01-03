@@ -8,17 +8,30 @@ namespace lineCounter
     {
         static void Main(string[] args)
         {
-            using var reader = new StreamReader("");
+
+            Console.WriteLine("Please enter file location:");
+            string path = Console.ReadLine();
+
+            using var reader = new StreamReader(path);
             double total = 0;
             int count = 0;
 
             while (!reader.EndOfStream)
             {
-                var line = reader.ReadLine();
-
-                total += double.Parse(line);
-
-                count++;
+                var line = reader.ReadLine(); 
+                
+                try
+                {
+                    // If line is int
+                    double number = double.Parse(line);
+                    total += number;
+                    count++;
+                }
+                catch (FormatException)
+                {
+                    // If line isn't int.
+                }
+               
             }
             double average = total / count;
 
